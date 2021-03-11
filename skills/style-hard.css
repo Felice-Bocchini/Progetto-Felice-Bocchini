@@ -1,0 +1,154 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: 0.8px solid #fff;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #696969;
+}
+
+/*
+ * Body
+ */
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 0.8px 1.6px rgba(0, 0, 0, .5);
+}
+
+.inner{
+  margin-bottom: 80px;
+}
+
+
+.cover-container {
+  max-width: 900px;
+}
+
+
+.card-body > p , h4{
+  color:#000000;
+}
+
+.card-body{
+  height: 150px;
+}
+
+.card-header{
+  width: auto;
+  height: 80px;
+  background-color: #C0C0C0;
+}
+
+.icon1, .icon2,
+.icon3{
+  height: 60px;
+  width: 55px;
+}
+
+.card-body > h1{
+  color:#000000;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 32px;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: 4px 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 16px;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .inner{
+    margin-bottom: 30px;
+  }
+  .fb, .insta,
+  .whatsapp, .e-mail {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 767px){
+  .inner{
+    margin-bottom: 30px;
+  }
+  .fb, .insta,
+  .whatsapp, .e-mail {
+    margin-bottom: 20px;
+  }
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, .5);
+}
+
+.insta, .whatsapp,
+.e-mail {
+ margin-left: 50px;
+ margin-bottom: 20px;
+ height: 30px;
+ width: 30px;
+}
+.fb{
+ height: 30px;
+ width: 30px;
+ margin-bottom: 20px;
+}
